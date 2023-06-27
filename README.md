@@ -3,11 +3,11 @@ Linkedin Feed blocker 2023
 
 🚫 Tired of your LinkedIn feed constantly demanding your attention? So was I! As a solution, I created a script to hide the LinkedIn feed. Why? Because available Chrome plugins just weren't up to the task anymore. Want to reclaim your focus and headspace? Here's how:
 
-Install the Tampermonkey Chrome Extension - it's a user-friendly interface to manage user scripts.
+1. Install the [Tampermonkey Chrome Extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) - it's a user-friendly interface to manage user scripts.
 
-Click on the Tampermonkey extension icon and select "Create a new script" - this will open up a platform for you to customize your browsing experience.
+2. Click on the Tampermonkey extension icon and select "Create a new script" - this will open up a platform for you to customize your browsing experience.
 
-In the editor, replace the existing content with my user script below. Easy, right?
+3. In the editor, replace the existing content with my user script below. Easy, right?
 
 
 I built this script because the mental clutter that comes with an overactive feed can be quite distracting. I hope it helps you as much as it's helped me.
