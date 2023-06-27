@@ -18,38 +18,24 @@ Give it a try and let me know your thoughts. Does it make your LinkedIn experien
 
 Curious to hear your feedback, let me know if it works for you. 👇👇
 
-
+```
 // ==UserScript==
-
 // @name    Hide Element
-
 // @version 1
-
 // @grant   none
-
 // @match   https://targetwebsite.com/*
 
 // ==/UserScript==
-
-
 var observer = new MutationObserver(function(mutations) {
-
    var elements = document.querySelectorAll('[aria-label="Main Feed"]');
-
    for (var i = 0; i < elements.length; i++) {
-
        if(elements[i].classList.contains('scaffold-layout__main')){
-
            elements[i].style.display = 'none';
-
        }
-
    }
-
 });
 
 observer.observe(document, { attributes: true, childList: true, subtree: true });
-
-
+```
 
 
